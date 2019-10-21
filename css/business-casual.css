@@ -6,10 +6,18 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  /* background-image: url("c");
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 h1,
@@ -35,6 +43,7 @@ p {
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
+  position: relative;
 }
 
 .site-heading .site-heading-upper {
@@ -75,7 +84,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(84, 60, 88, 0.9);
   font-family: 'Raleway';
 }
 
@@ -225,7 +234,10 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color:rgba(84, 60, 88, 0.9);
+  position: relative;
+  padding-top: 15px !important; 
+  padding-bottom: 15px !important;
 }
 
 .text-primary {
