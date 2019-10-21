@@ -20,6 +20,19 @@ body {
   min-height: 100%;
 }
 
+#myVideoTwo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  overflow: hidden;
+  z-index: -100;
+}
+
+table {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
